@@ -11,6 +11,8 @@ b) the access via a simple user interface to interact with the playlist\
 c) making the playlist accessible on a server for other users \
 The vlcj4 library was used.
 
+The code can be found in the Maven_project.zip file.
+
 ## Usage
 
 The executables can be found in the RadioApp.zip folder.
