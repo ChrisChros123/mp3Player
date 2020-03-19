@@ -14,7 +14,7 @@ The
 ## Usage
 
 ### a) Command line mode
-The command line mode is the default and does not require any additional command line argument. 
+The command line mode is the default and does not require any additional command line argument. \
 (e.g: ./gseRadio /home/cs/g-se-ws-2019-cstiller/src/test/resources )
 The following commands can be applied in this mode: 
 - "song" to get the title and artist of the currently playing song
@@ -22,7 +22,7 @@ The following commands can be applied in this mode:
 - "exit" to stop the program.
 
 ### b) GUI mode
-To access the application via a user interface, one of the command line arguments "--gui" or "-g" must applied.
+To access the application via a user interface, one of the command line arguments "--gui" or "-g" must applied.\
 (e.g: ./gseRadio --gui /home/cs/g-se-ws-2019-cstiller/src/test/resources ) 
 The gui shows the currently playing playlist. The user can control the order of the playlist according to 
 her/his taste using the vote button.
@@ -31,7 +31,7 @@ her/his taste using the vote button.
 ### c) Server mode
 The server mode can be entered by using "--server" as first command line argument. Additionally, the port by which
 the stream should be accessible can be indicated in using a second argument "--streaming=<port>" where <port> must be 
-replaced by the port number. 
+replaced by the port number. \
 (e.g: ./gseRadio --server --streaming=9000 /home/cs/g-se-ws-2019-cstiller/src/test/resources )
 
 ### general
