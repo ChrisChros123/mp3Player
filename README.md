@@ -38,12 +38,12 @@ her/his taste using the vote button.
 
 ### c) Server mode
 The server mode can be entered by using "--server" as first command line argument. Additionally, the port by which
-the stream should be accessible can be indicated in using a second argument "--streaming=<port>" where <port> must be 
+the stream should be accessible can be indicated in using a second argument "--streaming=port" where port must be 
 replaced by the port number. \
 (e.g: ./gseRadio --server --streaming=9000 /home/cs/g-se-ws-2019-cstiller/src/test/resources )\
 If no port is put in, port 8080 is used by default. 
-The server can be accessed via the URL "http://localhost:<PORT>/" and by appending it with "current-song" or "paylist",
-the respective information will be displayed in the browser. 
+The server can be accessed via the URL "http://localhost:PORT/" (replace PORT) and by appending it with "current-song" 
+or "paylist", the respective information will be displayed in the browser. 
 
 
 
